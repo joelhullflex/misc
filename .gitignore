@@ -1,0 +1,24 @@
+*.gz
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+Icon?
+ehthumbs.db
+Thumbs.db
+.idea
+.swp
+
+vendor/
+
+# don't include the local configuration file as
+# it will be different per developer
+config/files/local.json
+
+# test coverage files
+cover.out
+coverage.html
+
+# likely binaries
+main
+auth-proxy
