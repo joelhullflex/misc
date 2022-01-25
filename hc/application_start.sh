@@ -35,7 +35,7 @@ ls -al $cfg
 
 cd $HOME
 pwd
-./hc_run.sh
+./hc_run.sh 8080
 
 exit 0
 

@@ -9,5 +9,5 @@ pwd >> $log
 echo $PATH >> $log
 
 export FLASK_APP=hcserver.py
-nohup flask run -h 0.0.0.0 -p 8080 > hc.log 2>&1 &
+nohup flask run -h 0.0.0.0 -p $1 > hc.log 2>&1 &
 
