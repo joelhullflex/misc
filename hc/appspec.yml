@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: config
-    destination: /home/flex/config
+    destination: /home/flex/codedeploy_config
 hooks:
   BeforeInstall:
     - location: before_install.sh
